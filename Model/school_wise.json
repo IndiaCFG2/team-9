@@ -1,1 +1,1796 @@
-[{"School":"A","Clicks":948,"Teachers":66,"Students":208},{"School":"B","Clicks":998,"Teachers":29,"Students":414},{"School":"C","Clicks":952,"Teachers":72,"Students":327},{"School":"D","Clicks":868,"Teachers":43,"Students":308},{"School":"E","Clicks":1026,"Teachers":11,"Students":307},{"School":"F","Clicks":913,"Teachers":100,"Students":388},{"School":"G","Clicks":1002,"Teachers":34,"Students":432},{"School":"H","Clicks":947,"Teachers":25,"Students":353},{"School":"I","Clicks":279,"Teachers":5,"Students":293},{"School":"J","Clicks":219,"Teachers":24,"Students":500},{"School":"K","Clicks":230,"Teachers":31,"Students":495},{"School":"L","Clicks":157,"Teachers":61,"Students":449},{"School":"M","Clicks":410,"Teachers":80,"Students":368},{"School":"N","Clicks":386,"Teachers":94,"Students":276},{"School":"O","Clicks":171,"Teachers":93,"Students":265},{"School":"P","Clicks":116,"Teachers":18,"Students":269},{"School":"Q","Clicks":965,"Teachers":27,"Students":453},{"School":"R","Clicks":635,"Teachers":31,"Students":447},{"School":"S","Clicks":703,"Teachers":53,"Students":440},{"School":"T","Clicks":745,"Teachers":91,"Students":245},{"School":"U","Clicks":604,"Teachers":36,"Students":281},{"School":"V","Clicks":926,"Teachers":13,"Students":471},{"School":"W","Clicks":6,"Teachers":94,"Students":275},{"School":"X","Clicks":4,"Teachers":86,"Students":418},{"School":"Y","Clicks":287,"Teachers":96,"Students":229},{"School":"Z","Clicks":840,"Teachers":46,"Students":282},{"School":"A39","Clicks":433,"Teachers":94,"Students":350},{"School":"B27","Clicks":490,"Teachers":72,"Students":488},{"School":"C34","Clicks":478,"Teachers":33,"Students":362},{"School":"D78","Clicks":33,"Teachers":33,"Students":223},{"School":"E78","Clicks":896,"Teachers":34,"Students":329},{"School":"F80","Clicks":664,"Teachers":49,"Students":263},{"School":"G22","Clicks":734,"Teachers":35,"Students":313},{"School":"H24","Clicks":0,"Teachers":12,"Students":497},{"School":"I64","Clicks":325,"Teachers":61,"Students":263},{"School":"J64","Clicks":383,"Teachers":27,"Students":210},{"School":"K31","Clicks":761,"Teachers":81,"Students":203},{"School":"L51","Clicks":659,"Teachers":24,"Students":327},{"School":"M41","Clicks":259,"Teachers":82,"Students":343},{"School":"N10","Clicks":123,"Teachers":6,"Students":346},{"School":"O78","Clicks":1072,"Teachers":97,"Students":485},{"School":"P83","Clicks":428,"Teachers":40,"Students":471},{"School":"Q4","Clicks":571,"Teachers":5,"Students":427},{"School":"R82","Clicks":264,"Teachers":44,"Students":305},{"School":"S52","Clicks":853,"Teachers":33,"Students":446},{"School":"T47","Clicks":920,"Teachers":60,"Students":353},{"School":"U36","Clicks":791,"Teachers":89,"Students":372},{"School":"V11","Clicks":721,"Teachers":58,"Students":499},{"School":"W74","Clicks":633,"Teachers":11,"Students":358},{"School":"X64","Clicks":368,"Teachers":76,"Students":421},{"School":"Y2","Clicks":71,"Teachers":59,"Students":329},{"School":"Z56","Clicks":510,"Teachers":58,"Students":371},{"School":"A3915","Clicks":205,"Teachers":75,"Students":212},{"School":"B2749","Clicks":322,"Teachers":95,"Students":379},{"School":"C3426","Clicks":400,"Teachers":51,"Students":239},{"School":"D7882","Clicks":806,"Teachers":18,"Students":251},{"School":"E7854","Clicks":845,"Teachers":11,"Students":326},{"School":"F8075","Clicks":371,"Teachers":84,"Students":371},{"School":"G2273","Clicks":656,"Teachers":91,"Students":403},{"School":"H2424","Clicks":653,"Teachers":77,"Students":283},{"School":"I6429","Clicks":740,"Teachers":87,"Students":353},{"School":"J6485","Clicks":373,"Teachers":8,"Students":367},{"School":"K3124","Clicks":348,"Teachers":57,"Students":239},{"School":"L513","Clicks":555,"Teachers":44,"Students":425},{"School":"A1","Clicks":770,"Teachers":40,"Students":360},{"School":"B71","Clicks":456,"Teachers":93,"Students":379},{"School":"C82","Clicks":935,"Teachers":22,"Students":265},{"School":"D25","Clicks":326,"Teachers":40,"Students":348},{"School":"E1","Clicks":667,"Teachers":43,"Students":247},{"School":"F48","Clicks":740,"Teachers":88,"Students":430},{"School":"G32","Clicks":809,"Teachers":19,"Students":463},{"School":"H60","Clicks":128,"Teachers":26,"Students":292},{"School":"I20","Clicks":27,"Teachers":10,"Students":328},{"School":"J26","Clicks":854,"Teachers":7,"Students":338},{"School":"K46","Clicks":141,"Teachers":22,"Students":379},{"School":"L42","Clicks":404,"Teachers":71,"Students":444},{"School":"M17","Clicks":150,"Teachers":97,"Students":457},{"School":"N76","Clicks":1061,"Teachers":86,"Students":389},{"School":"O79","Clicks":665,"Teachers":9,"Students":390},{"School":"P57","Clicks":422,"Teachers":54,"Students":390},{"School":"Q36","Clicks":336,"Teachers":26,"Students":315},{"School":"R16","Clicks":686,"Teachers":85,"Students":468},{"School":"S71","Clicks":589,"Teachers":58,"Students":419},{"School":"T87","Clicks":818,"Teachers":78,"Students":472},{"School":"U40","Clicks":342,"Teachers":26,"Students":429},{"School":"V18","Clicks":993,"Teachers":84,"Students":232},{"School":"W71","Clicks":339,"Teachers":92,"Students":463},{"School":"X39","Clicks":82,"Teachers":40,"Students":321},{"School":"Y21","Clicks":221,"Teachers":84,"Students":353},{"School":"Z76","Clicks":381,"Teachers":79,"Students":484},{"School":"A3981","Clicks":671,"Teachers":40,"Students":254},{"School":"B2760","Clicks":252,"Teachers":89,"Students":330},{"School":"C3434","Clicks":130,"Teachers":89,"Students":241},{"School":"D7817","Clicks":193,"Teachers":84,"Students":365},{"School":"E7832","Clicks":741,"Teachers":89,"Students":413},{"School":"F8069","Clicks":396,"Teachers":8,"Students":488},{"School":"G2211","Clicks":92,"Teachers":7,"Students":378},{"School":"H2449","Clicks":56,"Teachers":23,"Students":445},{"School":"I6455","Clicks":647,"Teachers":86,"Students":370},{"School":"J6429","Clicks":774,"Teachers":27,"Students":465},{"School":"K3130","Clicks":108,"Teachers":87,"Students":214},{"School":"L5171","Clicks":517,"Teachers":99,"Students":339},{"School":"M4184","Clicks":779,"Teachers":15,"Students":327},{"School":"N1054","Clicks":231,"Teachers":59,"Students":430},{"School":"O781","Clicks":712,"Teachers":75,"Students":312},{"School":"P8379","Clicks":848,"Teachers":92,"Students":293},{"School":"Q479","Clicks":667,"Teachers":93,"Students":323},{"School":"R8289","Clicks":325,"Teachers":5,"Students":215},{"School":"S5251","Clicks":183,"Teachers":49,"Students":410},{"School":"T4741","Clicks":451,"Teachers":27,"Students":211},{"School":"U3630","Clicks":432,"Teachers":21,"Students":259},{"School":"V1129","Clicks":826,"Teachers":98,"Students":219},{"School":"W7483","Clicks":157,"Teachers":67,"Students":284},{"School":"X646","Clicks":170,"Teachers":6,"Students":313},{"School":"Y256","Clicks":178,"Teachers":57,"Students":462},{"School":"Z5611","Clicks":743,"Teachers":100,"Students":476},{"School":"A391548","Clicks":415,"Teachers":46,"Students":408},{"School":"B274927","Clicks":25,"Teachers":80,"Students":223},{"School":"C342676","Clicks":629,"Teachers":57,"Students":233},{"School":"D788212","Clicks":110,"Teachers":57,"Students":361},{"School":"E785436","Clicks":716,"Teachers":78,"Students":346},{"School":"F807588","Clicks":395,"Teachers":88,"Students":212},{"School":"G227385","Clicks":1035,"Teachers":59,"Students":489},{"School":"H242416","Clicks":338,"Teachers":99,"Students":217},{"School":"I642920","Clicks":697,"Teachers":37,"Students":291},{"School":"J648556","Clicks":26,"Teachers":68,"Students":208},{"School":"K312470","Clicks":373,"Teachers":91,"Students":417},{"School":"L51352","Clicks":812,"Teachers":87,"Students":295},{"School":"A153","Clicks":518,"Teachers":12,"Students":495},{"School":"B7166","Clicks":585,"Teachers":98,"Students":423},{"School":"C8251","Clicks":291,"Teachers":63,"Students":251},{"School":"D2561","Clicks":0,"Teachers":46,"Students":494},{"School":"E133","Clicks":696,"Teachers":47,"Students":238},{"School":"F4866","Clicks":149,"Teachers":55,"Students":290},{"School":"G3227","Clicks":759,"Teachers":35,"Students":444},{"School":"H6012","Clicks":553,"Teachers":43,"Students":232},{"School":"I2027","Clicks":345,"Teachers":93,"Students":213},{"School":"J2631","Clicks":106,"Teachers":26,"Students":419},{"School":"K4618","Clicks":637,"Teachers":92,"Students":436},{"School":"L4279","Clicks":264,"Teachers":41,"Students":367},{"School":"M1745","Clicks":478,"Teachers":13,"Students":269},{"School":"N7649","Clicks":372,"Teachers":75,"Students":453},{"School":"O7931","Clicks":286,"Teachers":71,"Students":294},{"School":"P5779","Clicks":659,"Teachers":15,"Students":415},{"School":"Q3663","Clicks":923,"Teachers":48,"Students":318},{"School":"R1617","Clicks":52,"Teachers":76,"Students":253},{"School":"S7137","Clicks":890,"Teachers":54,"Students":210},{"School":"T8773","Clicks":405,"Teachers":34,"Students":397},{"School":"U4064","Clicks":16,"Teachers":28,"Students":337},{"School":"V1844","Clicks":144,"Teachers":54,"Students":474},{"School":"W7138","Clicks":211,"Teachers":36,"Students":469},{"School":"X3956","Clicks":6,"Teachers":81,"Students":492},{"School":"Y2164","Clicks":462,"Teachers":95,"Students":434},{"School":"Z768","Clicks":35,"Teachers":74,"Students":428},{"School":"A398112","Clicks":80,"Teachers":65,"Students":431},{"School":"B276041","Clicks":888,"Teachers":15,"Students":271},{"School":"C34342","Clicks":108,"Teachers":16,"Students":238},{"School":"D781726","Clicks":461,"Teachers":49,"Students":460},{"School":"E783250","Clicks":346,"Teachers":6,"Students":467},{"School":"F806912","Clicks":496,"Teachers":51,"Students":319},{"School":"G221115","Clicks":229,"Teachers":52,"Students":212},{"School":"H244940","Clicks":860,"Teachers":54,"Students":379},{"School":"I64551","Clicks":404,"Teachers":46,"Students":382},{"School":"J642965","Clicks":476,"Teachers":16,"Students":253},{"School":"K313022","Clicks":701,"Teachers":58,"Students":402},{"School":"L517156","Clicks":309,"Teachers":75,"Students":278},{"School":"M418456","Clicks":357,"Teachers":15,"Students":221},{"School":"N105489","Clicks":437,"Teachers":52,"Students":225},{"School":"O78120","Clicks":387,"Teachers":89,"Students":295},{"School":"P837968","Clicks":493,"Teachers":73,"Students":221},{"School":"Q47961","Clicks":1173,"Teachers":90,"Students":239},{"School":"R828932","Clicks":738,"Teachers":13,"Students":349},{"School":"S525115","Clicks":513,"Teachers":48,"Students":441},{"School":"T474154","Clicks":290,"Teachers":59,"Students":339},{"School":"U363031","Clicks":292,"Teachers":46,"Students":246},{"School":"V112912","Clicks":289,"Teachers":8,"Students":447},{"School":"W748311","Clicks":873,"Teachers":21,"Students":210},{"School":"X64677","Clicks":924,"Teachers":36,"Students":352},{"School":"Y25669","Clicks":509,"Teachers":89,"Students":298},{"School":"Z561125","Clicks":274,"Teachers":46,"Students":266},{"School":"A39154817","Clicks":424,"Teachers":42,"Students":238},{"School":"B27492724","Clicks":248,"Teachers":99,"Students":484},{"School":"C34267683","Clicks":400,"Teachers":16,"Students":399},{"School":"D78821282","Clicks":148,"Teachers":35,"Students":455},{"School":"E78543646","Clicks":725,"Teachers":55,"Students":223},{"School":"F8075886","Clicks":297,"Teachers":99,"Students":366},{"School":"G22738548","Clicks":683,"Teachers":5,"Students":262},{"School":"H24241682","Clicks":133,"Teachers":33,"Students":421},{"School":"I64292063","Clicks":704,"Teachers":66,"Students":417},{"School":"J64855663","Clicks":553,"Teachers":43,"Students":254},{"School":"K31247061","Clicks":269,"Teachers":52,"Students":318},{"School":"L5135265","Clicks":930,"Teachers":61,"Students":423},{"School":"A15365","Clicks":599,"Teachers":96,"Students":494},{"School":"B716664","Clicks":538,"Teachers":35,"Students":212},{"School":"C825160","Clicks":940,"Teachers":67,"Students":236},{"School":"D256134","Clicks":570,"Teachers":19,"Students":398},{"School":"E13321","Clicks":555,"Teachers":84,"Students":484},{"School":"F486666","Clicks":599,"Teachers":21,"Students":391},{"School":"G322747","Clicks":159,"Teachers":51,"Students":424},{"School":"H601220","Clicks":363,"Teachers":78,"Students":488},{"School":"I202728","Clicks":80,"Teachers":13,"Students":487},{"School":"J263178","Clicks":929,"Teachers":73,"Students":307},{"School":"K461815","Clicks":543,"Teachers":90,"Students":243},{"School":"L427986","Clicks":437,"Teachers":14,"Students":365},{"School":"M174578","Clicks":487,"Teachers":99,"Students":374},{"School":"N764981","Clicks":194,"Teachers":12,"Students":362},{"School":"O793180","Clicks":261,"Teachers":51,"Students":272},{"School":"P577976","Clicks":46,"Teachers":82,"Students":350},{"School":"Q366326","Clicks":615,"Teachers":81,"Students":365},{"School":"R161728","Clicks":755,"Teachers":90,"Students":457},{"School":"S71374","Clicks":499,"Teachers":54,"Students":278},{"School":"T877320","Clicks":698,"Teachers":95,"Students":318},{"School":"U406416","Clicks":473,"Teachers":73,"Students":451},{"School":"V184488","Clicks":610,"Teachers":30,"Students":212},{"School":"W713820","Clicks":55,"Teachers":99,"Students":345},{"School":"X395675","Clicks":227,"Teachers":19,"Students":488},{"School":"Y216456","Clicks":328,"Teachers":61,"Students":483},{"School":"Z76831","Clicks":602,"Teachers":21,"Students":226},{"School":"A39811215","Clicks":69,"Teachers":32,"Students":444},{"School":"B27604183","Clicks":357,"Teachers":39,"Students":340},{"School":"C3434221","Clicks":813,"Teachers":13,"Students":407},{"School":"D78172621","Clicks":221,"Teachers":81,"Students":390},{"School":"E78325043","Clicks":873,"Teachers":7,"Students":310},{"School":"F80691224","Clicks":656,"Teachers":49,"Students":245},{"School":"G22111543","Clicks":102,"Teachers":13,"Students":201},{"School":"H24494042","Clicks":107,"Teachers":80,"Students":297},{"School":"I6455180","Clicks":897,"Teachers":79,"Students":266},{"School":"J64296572","Clicks":847,"Teachers":62,"Students":385},{"School":"K31302258","Clicks":53,"Teachers":95,"Students":309},{"School":"L51715635","Clicks":683,"Teachers":11,"Students":227},{"School":"M41845611","Clicks":185,"Teachers":62,"Students":245},{"School":"N10548959","Clicks":778,"Teachers":16,"Students":470},{"School":"O7812063","Clicks":76,"Teachers":35,"Students":427},{"School":"P83796846","Clicks":399,"Teachers":75,"Students":241},{"School":"Q4796115","Clicks":882,"Teachers":69,"Students":238},{"School":"R82893231","Clicks":941,"Teachers":72,"Students":327},{"School":"S52511589","Clicks":438,"Teachers":77,"Students":235},{"School":"T4741545","Clicks":429,"Teachers":84,"Students":200},{"School":"U36303115","Clicks":490,"Teachers":85,"Students":446},{"School":"V11291261","Clicks":715,"Teachers":75,"Students":316},{"School":"W7483114","Clicks":315,"Teachers":22,"Students":452},{"School":"X6467718","Clicks":35,"Teachers":76,"Students":376},{"School":"Y2566943","Clicks":293,"Teachers":40,"Students":292},{"School":"Z56112568","Clicks":714,"Teachers":97,"Students":222},{"School":"A3915481784","Clicks":636,"Teachers":26,"Students":390},{"School":"B2749272473","Clicks":292,"Teachers":49,"Students":362},{"School":"C3426768341","Clicks":333,"Teachers":36,"Students":251},{"School":"D7882128255","Clicks":235,"Teachers":30,"Students":257},{"School":"E7854364619","Clicks":745,"Teachers":26,"Students":215},{"School":"F807588622","Clicks":29,"Teachers":47,"Students":231},{"School":"G2273854858","Clicks":607,"Teachers":42,"Students":357},{"School":"H242416824","Clicks":450,"Teachers":72,"Students":202},{"School":"I6429206375","Clicks":753,"Teachers":35,"Students":200},{"School":"J6485566360","Clicks":651,"Teachers":87,"Students":451},{"School":"K3124706115","Clicks":725,"Teachers":58,"Students":408},{"School":"L513526569","Clicks":689,"Teachers":25,"Students":425},{"School":"A1536589","Clicks":787,"Teachers":71,"Students":363},{"School":"B71666462","Clicks":891,"Teachers":66,"Students":482},{"School":"C82516034","Clicks":287,"Teachers":18,"Students":251},{"School":"D25613420","Clicks":77,"Teachers":24,"Students":274},{"School":"E1332144","Clicks":1054,"Teachers":14,"Students":273},{"School":"F48666657","Clicks":417,"Teachers":71,"Students":315},{"School":"G3227473","Clicks":785,"Teachers":31,"Students":268},{"School":"H60122085","Clicks":853,"Teachers":80,"Students":269},{"School":"I20272885","Clicks":0,"Teachers":98,"Students":248},{"School":"J26317868","Clicks":235,"Teachers":35,"Students":389},{"School":"K46181543","Clicks":799,"Teachers":34,"Students":248},{"School":"L4279863","Clicks":149,"Teachers":13,"Students":360},{"School":"M17457868","Clicks":956,"Teachers":95,"Students":232},{"School":"N76498186","Clicks":731,"Teachers":86,"Students":417},{"School":"O79318080","Clicks":424,"Teachers":80,"Students":304},{"School":"P57797655","Clicks":540,"Teachers":91,"Students":373},{"School":"Q36632689","Clicks":78,"Teachers":94,"Students":283},{"School":"R16172853","Clicks":255,"Teachers":52,"Students":353},{"School":"S7137478","Clicks":292,"Teachers":21,"Students":222},{"School":"T87732023","Clicks":532,"Teachers":54,"Students":243},{"School":"U40641645","Clicks":91,"Teachers":84,"Students":318},{"School":"V18448845","Clicks":563,"Teachers":53,"Students":221},{"School":"W71382042","Clicks":364,"Teachers":82,"Students":230},{"School":"X39567525","Clicks":1058,"Teachers":89,"Students":227},{"School":"Y21645619","Clicks":1005,"Teachers":7,"Students":235},{"School":"Z7683181","Clicks":110,"Teachers":82,"Students":338},{"School":"A3981121546","Clicks":516,"Teachers":99,"Students":466},{"School":"B2760418342","Clicks":45,"Teachers":42,"Students":477},{"School":"C343422122","Clicks":443,"Teachers":94,"Students":222},{"School":"D7817262156","Clicks":218,"Teachers":16,"Students":341},{"School":"E7832504358","Clicks":454,"Teachers":72,"Students":261},{"School":"F8069122438","Clicks":15,"Teachers":68,"Students":448},{"School":"G2211154311","Clicks":411,"Teachers":77,"Students":465},{"School":"H244940428","Clicks":133,"Teachers":82,"Students":286},{"School":"I645518042","Clicks":428,"Teachers":90,"Students":289},{"School":"J6429657216","Clicks":174,"Teachers":50,"Students":229},{"School":"K313022584","Clicks":825,"Teachers":77,"Students":215},{"School":"L5171563528","Clicks":101,"Teachers":22,"Students":320},{"School":"M4184561148","Clicks":517,"Teachers":89,"Students":331},{"School":"N1054895924","Clicks":377,"Teachers":63,"Students":416},{"School":"O78120633","Clicks":1132,"Teachers":25,"Students":475},{"School":"P8379684666","Clicks":429,"Teachers":40,"Students":226},{"School":"Q479611576","Clicks":325,"Teachers":22,"Students":288}]
+[
+    {
+        "School": "A",
+        "Clicks": 948,
+        "Teachers": 66,
+        "Students": 208
+    },
+    {
+        "School": "B",
+        "Clicks": 998,
+        "Teachers": 29,
+        "Students": 414
+    },
+    {
+        "School": "C",
+        "Clicks": 952,
+        "Teachers": 72,
+        "Students": 327
+    },
+    {
+        "School": "D",
+        "Clicks": 868,
+        "Teachers": 43,
+        "Students": 308
+    },
+    {
+        "School": "E",
+        "Clicks": 1026,
+        "Teachers": 11,
+        "Students": 307
+    },
+    {
+        "School": "F",
+        "Clicks": 913,
+        "Teachers": 100,
+        "Students": 388
+    },
+    {
+        "School": "G",
+        "Clicks": 1002,
+        "Teachers": 34,
+        "Students": 432
+    },
+    {
+        "School": "H",
+        "Clicks": 947,
+        "Teachers": 25,
+        "Students": 353
+    },
+    {
+        "School": "I",
+        "Clicks": 279,
+        "Teachers": 5,
+        "Students": 293
+    },
+    {
+        "School": "J",
+        "Clicks": 219,
+        "Teachers": 24,
+        "Students": 500
+    },
+    {
+        "School": "K",
+        "Clicks": 230,
+        "Teachers": 31,
+        "Students": 495
+    },
+    {
+        "School": "L",
+        "Clicks": 157,
+        "Teachers": 61,
+        "Students": 449
+    },
+    {
+        "School": "M",
+        "Clicks": 410,
+        "Teachers": 80,
+        "Students": 368
+    },
+    {
+        "School": "N",
+        "Clicks": 386,
+        "Teachers": 94,
+        "Students": 276
+    },
+    {
+        "School": "O",
+        "Clicks": 171,
+        "Teachers": 93,
+        "Students": 265
+    },
+    {
+        "School": "P",
+        "Clicks": 116,
+        "Teachers": 18,
+        "Students": 269
+    },
+    {
+        "School": "Q",
+        "Clicks": 965,
+        "Teachers": 27,
+        "Students": 453
+    },
+    {
+        "School": "R",
+        "Clicks": 635,
+        "Teachers": 31,
+        "Students": 447
+    },
+    {
+        "School": "S",
+        "Clicks": 703,
+        "Teachers": 53,
+        "Students": 440
+    },
+    {
+        "School": "T",
+        "Clicks": 745,
+        "Teachers": 91,
+        "Students": 245
+    },
+    {
+        "School": "U",
+        "Clicks": 604,
+        "Teachers": 36,
+        "Students": 281
+    },
+    {
+        "School": "V",
+        "Clicks": 926,
+        "Teachers": 13,
+        "Students": 471
+    },
+    {
+        "School": "W",
+        "Clicks": 6,
+        "Teachers": 94,
+        "Students": 275
+    },
+    {
+        "School": "X",
+        "Clicks": 4,
+        "Teachers": 86,
+        "Students": 418
+    },
+    {
+        "School": "Y",
+        "Clicks": 287,
+        "Teachers": 96,
+        "Students": 229
+    },
+    {
+        "School": "Z",
+        "Clicks": 840,
+        "Teachers": 46,
+        "Students": 282
+    },
+    {
+        "School": "A39",
+        "Clicks": 433,
+        "Teachers": 94,
+        "Students": 350
+    },
+    {
+        "School": "B27",
+        "Clicks": 490,
+        "Teachers": 72,
+        "Students": 488
+    },
+    {
+        "School": "C34",
+        "Clicks": 478,
+        "Teachers": 33,
+        "Students": 362
+    },
+    {
+        "School": "D78",
+        "Clicks": 33,
+        "Teachers": 33,
+        "Students": 223
+    },
+    {
+        "School": "E78",
+        "Clicks": 896,
+        "Teachers": 34,
+        "Students": 329
+    },
+    {
+        "School": "F80",
+        "Clicks": 664,
+        "Teachers": 49,
+        "Students": 263
+    },
+    {
+        "School": "G22",
+        "Clicks": 734,
+        "Teachers": 35,
+        "Students": 313
+    },
+    {
+        "School": "H24",
+        "Clicks": 0,
+        "Teachers": 12,
+        "Students": 497
+    },
+    {
+        "School": "I64",
+        "Clicks": 325,
+        "Teachers": 61,
+        "Students": 263
+    },
+    {
+        "School": "J64",
+        "Clicks": 383,
+        "Teachers": 27,
+        "Students": 210
+    },
+    {
+        "School": "K31",
+        "Clicks": 761,
+        "Teachers": 81,
+        "Students": 203
+    },
+    {
+        "School": "L51",
+        "Clicks": 659,
+        "Teachers": 24,
+        "Students": 327
+    },
+    {
+        "School": "M41",
+        "Clicks": 259,
+        "Teachers": 82,
+        "Students": 343
+    },
+    {
+        "School": "N10",
+        "Clicks": 123,
+        "Teachers": 6,
+        "Students": 346
+    },
+    {
+        "School": "O78",
+        "Clicks": 1072,
+        "Teachers": 97,
+        "Students": 485
+    },
+    {
+        "School": "P83",
+        "Clicks": 428,
+        "Teachers": 40,
+        "Students": 471
+    },
+    {
+        "School": "Q4",
+        "Clicks": 571,
+        "Teachers": 5,
+        "Students": 427
+    },
+    {
+        "School": "R82",
+        "Clicks": 264,
+        "Teachers": 44,
+        "Students": 305
+    },
+    {
+        "School": "S52",
+        "Clicks": 853,
+        "Teachers": 33,
+        "Students": 446
+    },
+    {
+        "School": "T47",
+        "Clicks": 920,
+        "Teachers": 60,
+        "Students": 353
+    },
+    {
+        "School": "U36",
+        "Clicks": 791,
+        "Teachers": 89,
+        "Students": 372
+    },
+    {
+        "School": "V11",
+        "Clicks": 721,
+        "Teachers": 58,
+        "Students": 499
+    },
+    {
+        "School": "W74",
+        "Clicks": 633,
+        "Teachers": 11,
+        "Students": 358
+    },
+    {
+        "School": "X64",
+        "Clicks": 368,
+        "Teachers": 76,
+        "Students": 421
+    },
+    {
+        "School": "Y2",
+        "Clicks": 71,
+        "Teachers": 59,
+        "Students": 329
+    },
+    {
+        "School": "Z56",
+        "Clicks": 510,
+        "Teachers": 58,
+        "Students": 371
+    },
+    {
+        "School": "A3915",
+        "Clicks": 205,
+        "Teachers": 75,
+        "Students": 212
+    },
+    {
+        "School": "B2749",
+        "Clicks": 322,
+        "Teachers": 95,
+        "Students": 379
+    },
+    {
+        "School": "C3426",
+        "Clicks": 400,
+        "Teachers": 51,
+        "Students": 239
+    },
+    {
+        "School": "D7882",
+        "Clicks": 806,
+        "Teachers": 18,
+        "Students": 251
+    },
+    {
+        "School": "E7854",
+        "Clicks": 845,
+        "Teachers": 11,
+        "Students": 326
+    },
+    {
+        "School": "F8075",
+        "Clicks": 371,
+        "Teachers": 84,
+        "Students": 371
+    },
+    {
+        "School": "G2273",
+        "Clicks": 656,
+        "Teachers": 91,
+        "Students": 403
+    },
+    {
+        "School": "H2424",
+        "Clicks": 653,
+        "Teachers": 77,
+        "Students": 283
+    },
+    {
+        "School": "I6429",
+        "Clicks": 740,
+        "Teachers": 87,
+        "Students": 353
+    },
+    {
+        "School": "J6485",
+        "Clicks": 373,
+        "Teachers": 8,
+        "Students": 367
+    },
+    {
+        "School": "K3124",
+        "Clicks": 348,
+        "Teachers": 57,
+        "Students": 239
+    },
+    {
+        "School": "L513",
+        "Clicks": 555,
+        "Teachers": 44,
+        "Students": 425
+    },
+    {
+        "School": "A1",
+        "Clicks": 770,
+        "Teachers": 40,
+        "Students": 360
+    },
+    {
+        "School": "B71",
+        "Clicks": 456,
+        "Teachers": 93,
+        "Students": 379
+    },
+    {
+        "School": "C82",
+        "Clicks": 935,
+        "Teachers": 22,
+        "Students": 265
+    },
+    {
+        "School": "D25",
+        "Clicks": 326,
+        "Teachers": 40,
+        "Students": 348
+    },
+    {
+        "School": "E1",
+        "Clicks": 667,
+        "Teachers": 43,
+        "Students": 247
+    },
+    {
+        "School": "F48",
+        "Clicks": 740,
+        "Teachers": 88,
+        "Students": 430
+    },
+    {
+        "School": "G32",
+        "Clicks": 809,
+        "Teachers": 19,
+        "Students": 463
+    },
+    {
+        "School": "H60",
+        "Clicks": 128,
+        "Teachers": 26,
+        "Students": 292
+    },
+    {
+        "School": "I20",
+        "Clicks": 27,
+        "Teachers": 10,
+        "Students": 328
+    },
+    {
+        "School": "J26",
+        "Clicks": 854,
+        "Teachers": 7,
+        "Students": 338
+    },
+    {
+        "School": "K46",
+        "Clicks": 141,
+        "Teachers": 22,
+        "Students": 379
+    },
+    {
+        "School": "L42",
+        "Clicks": 404,
+        "Teachers": 71,
+        "Students": 444
+    },
+    {
+        "School": "M17",
+        "Clicks": 150,
+        "Teachers": 97,
+        "Students": 457
+    },
+    {
+        "School": "N76",
+        "Clicks": 1061,
+        "Teachers": 86,
+        "Students": 389
+    },
+    {
+        "School": "O79",
+        "Clicks": 665,
+        "Teachers": 9,
+        "Students": 390
+    },
+    {
+        "School": "P57",
+        "Clicks": 422,
+        "Teachers": 54,
+        "Students": 390
+    },
+    {
+        "School": "Q36",
+        "Clicks": 336,
+        "Teachers": 26,
+        "Students": 315
+    },
+    {
+        "School": "R16",
+        "Clicks": 686,
+        "Teachers": 85,
+        "Students": 468
+    },
+    {
+        "School": "S71",
+        "Clicks": 589,
+        "Teachers": 58,
+        "Students": 419
+    },
+    {
+        "School": "T87",
+        "Clicks": 818,
+        "Teachers": 78,
+        "Students": 472
+    },
+    {
+        "School": "U40",
+        "Clicks": 342,
+        "Teachers": 26,
+        "Students": 429
+    },
+    {
+        "School": "V18",
+        "Clicks": 993,
+        "Teachers": 84,
+        "Students": 232
+    },
+    {
+        "School": "W71",
+        "Clicks": 339,
+        "Teachers": 92,
+        "Students": 463
+    },
+    {
+        "School": "X39",
+        "Clicks": 82,
+        "Teachers": 40,
+        "Students": 321
+    },
+    {
+        "School": "Y21",
+        "Clicks": 221,
+        "Teachers": 84,
+        "Students": 353
+    },
+    {
+        "School": "Z76",
+        "Clicks": 381,
+        "Teachers": 79,
+        "Students": 484
+    },
+    {
+        "School": "A3981",
+        "Clicks": 671,
+        "Teachers": 40,
+        "Students": 254
+    },
+    {
+        "School": "B2760",
+        "Clicks": 252,
+        "Teachers": 89,
+        "Students": 330
+    },
+    {
+        "School": "C3434",
+        "Clicks": 130,
+        "Teachers": 89,
+        "Students": 241
+    },
+    {
+        "School": "D7817",
+        "Clicks": 193,
+        "Teachers": 84,
+        "Students": 365
+    },
+    {
+        "School": "E7832",
+        "Clicks": 741,
+        "Teachers": 89,
+        "Students": 413
+    },
+    {
+        "School": "F8069",
+        "Clicks": 396,
+        "Teachers": 8,
+        "Students": 488
+    },
+    {
+        "School": "G2211",
+        "Clicks": 92,
+        "Teachers": 7,
+        "Students": 378
+    },
+    {
+        "School": "H2449",
+        "Clicks": 56,
+        "Teachers": 23,
+        "Students": 445
+    },
+    {
+        "School": "I6455",
+        "Clicks": 647,
+        "Teachers": 86,
+        "Students": 370
+    },
+    {
+        "School": "J6429",
+        "Clicks": 774,
+        "Teachers": 27,
+        "Students": 465
+    },
+    {
+        "School": "K3130",
+        "Clicks": 108,
+        "Teachers": 87,
+        "Students": 214
+    },
+    {
+        "School": "L5171",
+        "Clicks": 517,
+        "Teachers": 99,
+        "Students": 339
+    },
+    {
+        "School": "M4184",
+        "Clicks": 779,
+        "Teachers": 15,
+        "Students": 327
+    },
+    {
+        "School": "N1054",
+        "Clicks": 231,
+        "Teachers": 59,
+        "Students": 430
+    },
+    {
+        "School": "O781",
+        "Clicks": 712,
+        "Teachers": 75,
+        "Students": 312
+    },
+    {
+        "School": "P8379",
+        "Clicks": 848,
+        "Teachers": 92,
+        "Students": 293
+    },
+    {
+        "School": "Q479",
+        "Clicks": 667,
+        "Teachers": 93,
+        "Students": 323
+    },
+    {
+        "School": "R8289",
+        "Clicks": 325,
+        "Teachers": 5,
+        "Students": 215
+    },
+    {
+        "School": "S5251",
+        "Clicks": 183,
+        "Teachers": 49,
+        "Students": 410
+    },
+    {
+        "School": "T4741",
+        "Clicks": 451,
+        "Teachers": 27,
+        "Students": 211
+    },
+    {
+        "School": "U3630",
+        "Clicks": 432,
+        "Teachers": 21,
+        "Students": 259
+    },
+    {
+        "School": "V1129",
+        "Clicks": 826,
+        "Teachers": 98,
+        "Students": 219
+    },
+    {
+        "School": "W7483",
+        "Clicks": 157,
+        "Teachers": 67,
+        "Students": 284
+    },
+    {
+        "School": "X646",
+        "Clicks": 170,
+        "Teachers": 6,
+        "Students": 313
+    },
+    {
+        "School": "Y256",
+        "Clicks": 178,
+        "Teachers": 57,
+        "Students": 462
+    },
+    {
+        "School": "Z5611",
+        "Clicks": 743,
+        "Teachers": 100,
+        "Students": 476
+    },
+    {
+        "School": "A391548",
+        "Clicks": 415,
+        "Teachers": 46,
+        "Students": 408
+    },
+    {
+        "School": "B274927",
+        "Clicks": 25,
+        "Teachers": 80,
+        "Students": 223
+    },
+    {
+        "School": "C342676",
+        "Clicks": 629,
+        "Teachers": 57,
+        "Students": 233
+    },
+    {
+        "School": "D788212",
+        "Clicks": 110,
+        "Teachers": 57,
+        "Students": 361
+    },
+    {
+        "School": "E785436",
+        "Clicks": 716,
+        "Teachers": 78,
+        "Students": 346
+    },
+    {
+        "School": "F807588",
+        "Clicks": 395,
+        "Teachers": 88,
+        "Students": 212
+    },
+    {
+        "School": "G227385",
+        "Clicks": 1035,
+        "Teachers": 59,
+        "Students": 489
+    },
+    {
+        "School": "H242416",
+        "Clicks": 338,
+        "Teachers": 99,
+        "Students": 217
+    },
+    {
+        "School": "I642920",
+        "Clicks": 697,
+        "Teachers": 37,
+        "Students": 291
+    },
+    {
+        "School": "J648556",
+        "Clicks": 26,
+        "Teachers": 68,
+        "Students": 208
+    },
+    {
+        "School": "K312470",
+        "Clicks": 373,
+        "Teachers": 91,
+        "Students": 417
+    },
+    {
+        "School": "L51352",
+        "Clicks": 812,
+        "Teachers": 87,
+        "Students": 295
+    },
+    {
+        "School": "A153",
+        "Clicks": 518,
+        "Teachers": 12,
+        "Students": 495
+    },
+    {
+        "School": "B7166",
+        "Clicks": 585,
+        "Teachers": 98,
+        "Students": 423
+    },
+    {
+        "School": "C8251",
+        "Clicks": 291,
+        "Teachers": 63,
+        "Students": 251
+    },
+    {
+        "School": "D2561",
+        "Clicks": 0,
+        "Teachers": 46,
+        "Students": 494
+    },
+    {
+        "School": "E133",
+        "Clicks": 696,
+        "Teachers": 47,
+        "Students": 238
+    },
+    {
+        "School": "F4866",
+        "Clicks": 149,
+        "Teachers": 55,
+        "Students": 290
+    },
+    {
+        "School": "G3227",
+        "Clicks": 759,
+        "Teachers": 35,
+        "Students": 444
+    },
+    {
+        "School": "H6012",
+        "Clicks": 553,
+        "Teachers": 43,
+        "Students": 232
+    },
+    {
+        "School": "I2027",
+        "Clicks": 345,
+        "Teachers": 93,
+        "Students": 213
+    },
+    {
+        "School": "J2631",
+        "Clicks": 106,
+        "Teachers": 26,
+        "Students": 419
+    },
+    {
+        "School": "K4618",
+        "Clicks": 637,
+        "Teachers": 92,
+        "Students": 436
+    },
+    {
+        "School": "L4279",
+        "Clicks": 264,
+        "Teachers": 41,
+        "Students": 367
+    },
+    {
+        "School": "M1745",
+        "Clicks": 478,
+        "Teachers": 13,
+        "Students": 269
+    },
+    {
+        "School": "N7649",
+        "Clicks": 372,
+        "Teachers": 75,
+        "Students": 453
+    },
+    {
+        "School": "O7931",
+        "Clicks": 286,
+        "Teachers": 71,
+        "Students": 294
+    },
+    {
+        "School": "P5779",
+        "Clicks": 659,
+        "Teachers": 15,
+        "Students": 415
+    },
+    {
+        "School": "Q3663",
+        "Clicks": 923,
+        "Teachers": 48,
+        "Students": 318
+    },
+    {
+        "School": "R1617",
+        "Clicks": 52,
+        "Teachers": 76,
+        "Students": 253
+    },
+    {
+        "School": "S7137",
+        "Clicks": 890,
+        "Teachers": 54,
+        "Students": 210
+    },
+    {
+        "School": "T8773",
+        "Clicks": 405,
+        "Teachers": 34,
+        "Students": 397
+    },
+    {
+        "School": "U4064",
+        "Clicks": 16,
+        "Teachers": 28,
+        "Students": 337
+    },
+    {
+        "School": "V1844",
+        "Clicks": 144,
+        "Teachers": 54,
+        "Students": 474
+    },
+    {
+        "School": "W7138",
+        "Clicks": 211,
+        "Teachers": 36,
+        "Students": 469
+    },
+    {
+        "School": "X3956",
+        "Clicks": 6,
+        "Teachers": 81,
+        "Students": 492
+    },
+    {
+        "School": "Y2164",
+        "Clicks": 462,
+        "Teachers": 95,
+        "Students": 434
+    },
+    {
+        "School": "Z768",
+        "Clicks": 35,
+        "Teachers": 74,
+        "Students": 428
+    },
+    {
+        "School": "A398112",
+        "Clicks": 80,
+        "Teachers": 65,
+        "Students": 431
+    },
+    {
+        "School": "B276041",
+        "Clicks": 888,
+        "Teachers": 15,
+        "Students": 271
+    },
+    {
+        "School": "C34342",
+        "Clicks": 108,
+        "Teachers": 16,
+        "Students": 238
+    },
+    {
+        "School": "D781726",
+        "Clicks": 461,
+        "Teachers": 49,
+        "Students": 460
+    },
+    {
+        "School": "E783250",
+        "Clicks": 346,
+        "Teachers": 6,
+        "Students": 467
+    },
+    {
+        "School": "F806912",
+        "Clicks": 496,
+        "Teachers": 51,
+        "Students": 319
+    },
+    {
+        "School": "G221115",
+        "Clicks": 229,
+        "Teachers": 52,
+        "Students": 212
+    },
+    {
+        "School": "H244940",
+        "Clicks": 860,
+        "Teachers": 54,
+        "Students": 379
+    },
+    {
+        "School": "I64551",
+        "Clicks": 404,
+        "Teachers": 46,
+        "Students": 382
+    },
+    {
+        "School": "J642965",
+        "Clicks": 476,
+        "Teachers": 16,
+        "Students": 253
+    },
+    {
+        "School": "K313022",
+        "Clicks": 701,
+        "Teachers": 58,
+        "Students": 402
+    },
+    {
+        "School": "L517156",
+        "Clicks": 309,
+        "Teachers": 75,
+        "Students": 278
+    },
+    {
+        "School": "M418456",
+        "Clicks": 357,
+        "Teachers": 15,
+        "Students": 221
+    },
+    {
+        "School": "N105489",
+        "Clicks": 437,
+        "Teachers": 52,
+        "Students": 225
+    },
+    {
+        "School": "O78120",
+        "Clicks": 387,
+        "Teachers": 89,
+        "Students": 295
+    },
+    {
+        "School": "P837968",
+        "Clicks": 493,
+        "Teachers": 73,
+        "Students": 221
+    },
+    {
+        "School": "Q47961",
+        "Clicks": 1173,
+        "Teachers": 90,
+        "Students": 239
+    },
+    {
+        "School": "R828932",
+        "Clicks": 738,
+        "Teachers": 13,
+        "Students": 349
+    },
+    {
+        "School": "S525115",
+        "Clicks": 513,
+        "Teachers": 48,
+        "Students": 441
+    },
+    {
+        "School": "T474154",
+        "Clicks": 290,
+        "Teachers": 59,
+        "Students": 339
+    },
+    {
+        "School": "U363031",
+        "Clicks": 292,
+        "Teachers": 46,
+        "Students": 246
+    },
+    {
+        "School": "V112912",
+        "Clicks": 289,
+        "Teachers": 8,
+        "Students": 447
+    },
+    {
+        "School": "W748311",
+        "Clicks": 873,
+        "Teachers": 21,
+        "Students": 210
+    },
+    {
+        "School": "X64677",
+        "Clicks": 924,
+        "Teachers": 36,
+        "Students": 352
+    },
+    {
+        "School": "Y25669",
+        "Clicks": 509,
+        "Teachers": 89,
+        "Students": 298
+    },
+    {
+        "School": "Z561125",
+        "Clicks": 274,
+        "Teachers": 46,
+        "Students": 266
+    },
+    {
+        "School": "A39154817",
+        "Clicks": 424,
+        "Teachers": 42,
+        "Students": 238
+    },
+    {
+        "School": "B27492724",
+        "Clicks": 248,
+        "Teachers": 99,
+        "Students": 484
+    },
+    {
+        "School": "C34267683",
+        "Clicks": 400,
+        "Teachers": 16,
+        "Students": 399
+    },
+    {
+        "School": "D78821282",
+        "Clicks": 148,
+        "Teachers": 35,
+        "Students": 455
+    },
+    {
+        "School": "E78543646",
+        "Clicks": 725,
+        "Teachers": 55,
+        "Students": 223
+    },
+    {
+        "School": "F8075886",
+        "Clicks": 297,
+        "Teachers": 99,
+        "Students": 366
+    },
+    {
+        "School": "G22738548",
+        "Clicks": 683,
+        "Teachers": 5,
+        "Students": 262
+    },
+    {
+        "School": "H24241682",
+        "Clicks": 133,
+        "Teachers": 33,
+        "Students": 421
+    },
+    {
+        "School": "I64292063",
+        "Clicks": 704,
+        "Teachers": 66,
+        "Students": 417
+    },
+    {
+        "School": "J64855663",
+        "Clicks": 553,
+        "Teachers": 43,
+        "Students": 254
+    },
+    {
+        "School": "K31247061",
+        "Clicks": 269,
+        "Teachers": 52,
+        "Students": 318
+    },
+    {
+        "School": "L5135265",
+        "Clicks": 930,
+        "Teachers": 61,
+        "Students": 423
+    },
+    {
+        "School": "A15365",
+        "Clicks": 599,
+        "Teachers": 96,
+        "Students": 494
+    },
+    {
+        "School": "B716664",
+        "Clicks": 538,
+        "Teachers": 35,
+        "Students": 212
+    },
+    {
+        "School": "C825160",
+        "Clicks": 940,
+        "Teachers": 67,
+        "Students": 236
+    },
+    {
+        "School": "D256134",
+        "Clicks": 570,
+        "Teachers": 19,
+        "Students": 398
+    },
+    {
+        "School": "E13321",
+        "Clicks": 555,
+        "Teachers": 84,
+        "Students": 484
+    },
+    {
+        "School": "F486666",
+        "Clicks": 599,
+        "Teachers": 21,
+        "Students": 391
+    },
+    {
+        "School": "G322747",
+        "Clicks": 159,
+        "Teachers": 51,
+        "Students": 424
+    },
+    {
+        "School": "H601220",
+        "Clicks": 363,
+        "Teachers": 78,
+        "Students": 488
+    },
+    {
+        "School": "I202728",
+        "Clicks": 80,
+        "Teachers": 13,
+        "Students": 487
+    },
+    {
+        "School": "J263178",
+        "Clicks": 929,
+        "Teachers": 73,
+        "Students": 307
+    },
+    {
+        "School": "K461815",
+        "Clicks": 543,
+        "Teachers": 90,
+        "Students": 243
+    },
+    {
+        "School": "L427986",
+        "Clicks": 437,
+        "Teachers": 14,
+        "Students": 365
+    },
+    {
+        "School": "M174578",
+        "Clicks": 487,
+        "Teachers": 99,
+        "Students": 374
+    },
+    {
+        "School": "N764981",
+        "Clicks": 194,
+        "Teachers": 12,
+        "Students": 362
+    },
+    {
+        "School": "O793180",
+        "Clicks": 261,
+        "Teachers": 51,
+        "Students": 272
+    },
+    {
+        "School": "P577976",
+        "Clicks": 46,
+        "Teachers": 82,
+        "Students": 350
+    },
+    {
+        "School": "Q366326",
+        "Clicks": 615,
+        "Teachers": 81,
+        "Students": 365
+    },
+    {
+        "School": "R161728",
+        "Clicks": 755,
+        "Teachers": 90,
+        "Students": 457
+    },
+    {
+        "School": "S71374",
+        "Clicks": 499,
+        "Teachers": 54,
+        "Students": 278
+    },
+    {
+        "School": "T877320",
+        "Clicks": 698,
+        "Teachers": 95,
+        "Students": 318
+    },
+    {
+        "School": "U406416",
+        "Clicks": 473,
+        "Teachers": 73,
+        "Students": 451
+    },
+    {
+        "School": "V184488",
+        "Clicks": 610,
+        "Teachers": 30,
+        "Students": 212
+    },
+    {
+        "School": "W713820",
+        "Clicks": 55,
+        "Teachers": 99,
+        "Students": 345
+    },
+    {
+        "School": "X395675",
+        "Clicks": 227,
+        "Teachers": 19,
+        "Students": 488
+    },
+    {
+        "School": "Y216456",
+        "Clicks": 328,
+        "Teachers": 61,
+        "Students": 483
+    },
+    {
+        "School": "Z76831",
+        "Clicks": 602,
+        "Teachers": 21,
+        "Students": 226
+    },
+    {
+        "School": "A39811215",
+        "Clicks": 69,
+        "Teachers": 32,
+        "Students": 444
+    },
+    {
+        "School": "B27604183",
+        "Clicks": 357,
+        "Teachers": 39,
+        "Students": 340
+    },
+    {
+        "School": "C3434221",
+        "Clicks": 813,
+        "Teachers": 13,
+        "Students": 407
+    },
+    {
+        "School": "D78172621",
+        "Clicks": 221,
+        "Teachers": 81,
+        "Students": 390
+    },
+    {
+        "School": "E78325043",
+        "Clicks": 873,
+        "Teachers": 7,
+        "Students": 310
+    },
+    {
+        "School": "F80691224",
+        "Clicks": 656,
+        "Teachers": 49,
+        "Students": 245
+    },
+    {
+        "School": "G22111543",
+        "Clicks": 102,
+        "Teachers": 13,
+        "Students": 201
+    },
+    {
+        "School": "H24494042",
+        "Clicks": 107,
+        "Teachers": 80,
+        "Students": 297
+    },
+    {
+        "School": "I6455180",
+        "Clicks": 897,
+        "Teachers": 79,
+        "Students": 266
+    },
+    {
+        "School": "J64296572",
+        "Clicks": 847,
+        "Teachers": 62,
+        "Students": 385
+    },
+    {
+        "School": "K31302258",
+        "Clicks": 53,
+        "Teachers": 95,
+        "Students": 309
+    },
+    {
+        "School": "L51715635",
+        "Clicks": 683,
+        "Teachers": 11,
+        "Students": 227
+    },
+    {
+        "School": "M41845611",
+        "Clicks": 185,
+        "Teachers": 62,
+        "Students": 245
+    },
+    {
+        "School": "N10548959",
+        "Clicks": 778,
+        "Teachers": 16,
+        "Students": 470
+    },
+    {
+        "School": "O7812063",
+        "Clicks": 76,
+        "Teachers": 35,
+        "Students": 427
+    },
+    {
+        "School": "P83796846",
+        "Clicks": 399,
+        "Teachers": 75,
+        "Students": 241
+    },
+    {
+        "School": "Q4796115",
+        "Clicks": 882,
+        "Teachers": 69,
+        "Students": 238
+    },
+    {
+        "School": "R82893231",
+        "Clicks": 941,
+        "Teachers": 72,
+        "Students": 327
+    },
+    {
+        "School": "S52511589",
+        "Clicks": 438,
+        "Teachers": 77,
+        "Students": 235
+    },
+    {
+        "School": "T4741545",
+        "Clicks": 429,
+        "Teachers": 84,
+        "Students": 200
+    },
+    {
+        "School": "U36303115",
+        "Clicks": 490,
+        "Teachers": 85,
+        "Students": 446
+    },
+    {
+        "School": "V11291261",
+        "Clicks": 715,
+        "Teachers": 75,
+        "Students": 316
+    },
+    {
+        "School": "W7483114",
+        "Clicks": 315,
+        "Teachers": 22,
+        "Students": 452
+    },
+    {
+        "School": "X6467718",
+        "Clicks": 35,
+        "Teachers": 76,
+        "Students": 376
+    },
+    {
+        "School": "Y2566943",
+        "Clicks": 293,
+        "Teachers": 40,
+        "Students": 292
+    },
+    {
+        "School": "Z56112568",
+        "Clicks": 714,
+        "Teachers": 97,
+        "Students": 222
+    },
+    {
+        "School": "A3915481784",
+        "Clicks": 636,
+        "Teachers": 26,
+        "Students": 390
+    },
+    {
+        "School": "B2749272473",
+        "Clicks": 292,
+        "Teachers": 49,
+        "Students": 362
+    },
+    {
+        "School": "C3426768341",
+        "Clicks": 333,
+        "Teachers": 36,
+        "Students": 251
+    },
+    {
+        "School": "D7882128255",
+        "Clicks": 235,
+        "Teachers": 30,
+        "Students": 257
+    },
+    {
+        "School": "E7854364619",
+        "Clicks": 745,
+        "Teachers": 26,
+        "Students": 215
+    },
+    {
+        "School": "F807588622",
+        "Clicks": 29,
+        "Teachers": 47,
+        "Students": 231
+    },
+    {
+        "School": "G2273854858",
+        "Clicks": 607,
+        "Teachers": 42,
+        "Students": 357
+    },
+    {
+        "School": "H242416824",
+        "Clicks": 450,
+        "Teachers": 72,
+        "Students": 202
+    },
+    {
+        "School": "I6429206375",
+        "Clicks": 753,
+        "Teachers": 35,
+        "Students": 200
+    },
+    {
+        "School": "J6485566360",
+        "Clicks": 651,
+        "Teachers": 87,
+        "Students": 451
+    },
+    {
+        "School": "K3124706115",
+        "Clicks": 725,
+        "Teachers": 58,
+        "Students": 408
+    },
+    {
+        "School": "L513526569",
+        "Clicks": 689,
+        "Teachers": 25,
+        "Students": 425
+    },
+    {
+        "School": "A1536589",
+        "Clicks": 787,
+        "Teachers": 71,
+        "Students": 363
+    },
+    {
+        "School": "B71666462",
+        "Clicks": 891,
+        "Teachers": 66,
+        "Students": 482
+    },
+    {
+        "School": "C82516034",
+        "Clicks": 287,
+        "Teachers": 18,
+        "Students": 251
+    },
+    {
+        "School": "D25613420",
+        "Clicks": 77,
+        "Teachers": 24,
+        "Students": 274
+    },
+    {
+        "School": "E1332144",
+        "Clicks": 1054,
+        "Teachers": 14,
+        "Students": 273
+    },
+    {
+        "School": "F48666657",
+        "Clicks": 417,
+        "Teachers": 71,
+        "Students": 315
+    },
+    {
+        "School": "G3227473",
+        "Clicks": 785,
+        "Teachers": 31,
+        "Students": 268
+    },
+    {
+        "School": "H60122085",
+        "Clicks": 853,
+        "Teachers": 80,
+        "Students": 269
+    },
+    {
+        "School": "I20272885",
+        "Clicks": 0,
+        "Teachers": 98,
+        "Students": 248
+    },
+    {
+        "School": "J26317868",
+        "Clicks": 235,
+        "Teachers": 35,
+        "Students": 389
+    },
+    {
+        "School": "K46181543",
+        "Clicks": 799,
+        "Teachers": 34,
+        "Students": 248
+    },
+    {
+        "School": "L4279863",
+        "Clicks": 149,
+        "Teachers": 13,
+        "Students": 360
+    },
+    {
+        "School": "M17457868",
+        "Clicks": 956,
+        "Teachers": 95,
+        "Students": 232
+    },
+    {
+        "School": "N76498186",
+        "Clicks": 731,
+        "Teachers": 86,
+        "Students": 417
+    },
+    {
+        "School": "O79318080",
+        "Clicks": 424,
+        "Teachers": 80,
+        "Students": 304
+    },
+    {
+        "School": "P57797655",
+        "Clicks": 540,
+        "Teachers": 91,
+        "Students": 373
+    },
+    {
+        "School": "Q36632689",
+        "Clicks": 78,
+        "Teachers": 94,
+        "Students": 283
+    },
+    {
+        "School": "R16172853",
+        "Clicks": 255,
+        "Teachers": 52,
+        "Students": 353
+    },
+    {
+        "School": "S7137478",
+        "Clicks": 292,
+        "Teachers": 21,
+        "Students": 222
+    },
+    {
+        "School": "T87732023",
+        "Clicks": 532,
+        "Teachers": 54,
+        "Students": 243
+    },
+    {
+        "School": "U40641645",
+        "Clicks": 91,
+        "Teachers": 84,
+        "Students": 318
+    },
+    {
+        "School": "V18448845",
+        "Clicks": 563,
+        "Teachers": 53,
+        "Students": 221
+    },
+    {
+        "School": "W71382042",
+        "Clicks": 364,
+        "Teachers": 82,
+        "Students": 230
+    },
+    {
+        "School": "X39567525",
+        "Clicks": 1058,
+        "Teachers": 89,
+        "Students": 227
+    },
+    {
+        "School": "Y21645619",
+        "Clicks": 1005,
+        "Teachers": 7,
+        "Students": 235
+    },
+    {
+        "School": "Z7683181",
+        "Clicks": 110,
+        "Teachers": 82,
+        "Students": 338
+    },
+    {
+        "School": "A3981121546",
+        "Clicks": 516,
+        "Teachers": 99,
+        "Students": 466
+    },
+    {
+        "School": "B2760418342",
+        "Clicks": 45,
+        "Teachers": 42,
+        "Students": 477
+    },
+    {
+        "School": "C343422122",
+        "Clicks": 443,
+        "Teachers": 94,
+        "Students": 222
+    },
+    {
+        "School": "D7817262156",
+        "Clicks": 218,
+        "Teachers": 16,
+        "Students": 341
+    },
+    {
+        "School": "E7832504358",
+        "Clicks": 454,
+        "Teachers": 72,
+        "Students": 261
+    },
+    {
+        "School": "F8069122438",
+        "Clicks": 15,
+        "Teachers": 68,
+        "Students": 448
+    },
+    {
+        "School": "G2211154311",
+        "Clicks": 411,
+        "Teachers": 77,
+        "Students": 465
+    },
+    {
+        "School": "H244940428",
+        "Clicks": 133,
+        "Teachers": 82,
+        "Students": 286
+    },
+    {
+        "School": "I645518042",
+        "Clicks": 428,
+        "Teachers": 90,
+        "Students": 289
+    },
+    {
+        "School": "J6429657216",
+        "Clicks": 174,
+        "Teachers": 50,
+        "Students": 229
+    },
+    {
+        "School": "K313022584",
+        "Clicks": 825,
+        "Teachers": 77,
+        "Students": 215
+    },
+    {
+        "School": "L5171563528",
+        "Clicks": 101,
+        "Teachers": 22,
+        "Students": 320
+    },
+    {
+        "School": "M4184561148",
+        "Clicks": 517,
+        "Teachers": 89,
+        "Students": 331
+    },
+    {
+        "School": "N1054895924",
+        "Clicks": 377,
+        "Teachers": 63,
+        "Students": 416
+    },
+    {
+        "School": "O78120633",
+        "Clicks": 1132,
+        "Teachers": 25,
+        "Students": 475
+    },
+    {
+        "School": "P8379684666",
+        "Clicks": 429,
+        "Teachers": 40,
+        "Students": 226
+    },
+    {
+        "School": "Q479611576",
+        "Clicks": 325,
+        "Teachers": 22,
+        "Students": 288
+    }
+]
