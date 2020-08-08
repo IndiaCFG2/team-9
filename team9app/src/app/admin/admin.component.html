@@ -5,13 +5,11 @@
             <form>
               <div class="form-group">
                 <label>Enter a Login pin</label>
-                <input type="text" name="" class="form-control">
+                <input type="password" name="adminpin" class="form-control" [(ngModel)]="adminpin">
               </div>
-              
               <div class="form-group text-center">
-                <button class="btn btnD1">Login</button>
+                <button class="btn btnD1" (click)="submitPin()" type="button">Login</button>
               </div>
-              
             </form>
           </div>
         </div>
