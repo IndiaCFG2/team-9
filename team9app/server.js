@@ -1,13 +1,14 @@
 const exp = require('express');
 const mongoDb =require('mongodb').MongoClient;
 const path = require('path');
+const cors = require('cors');
 const adminApp = require("./apis/adminApi");
 
 
 const app = exp();
 
 app.use('/admin', adminApp);
-
+app.use(cors());
 
 
 app.use(exp.static(path.join(__dirname,'./dist/team9app')));
