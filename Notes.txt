@@ -1,0 +1,72 @@
+1) Lend a hand
+2) U and I
+3) Key Education
+4) 321
+5) Aquatic
+6) Civis
+
+
+Compression, protocol supporting faster speeds
+Multi lingual interface
+
+Ask about assesment sheets
+
+Good UI: - Assisted flow
+- Responsive UI
+- Easy to use for people who are not as comfortable with tech
+
+
+
+321
+
+- Anonymous login/sign up to keep count/ get statistics about no. of user participating
+- Bitly alternate
+- Statistics/ insights about students without getting their private data ...... also identify trends using these
+ We can see if required - Additional features like giving suggestions based on courses in the past
+- User feedback based on rating
+- Also give statistics like how many people are going through a course and hence find insights about engangments. 
+
+
+QUESTIONS TO ASK
+
+What type of courses are there and are they fixed? can any student have option to choose from courses
+Do you want user profiles /login/ sign up/ ok with credentials?
+What do you mean by visual repr of these
+What do you mean by 5th point
+
+
+
+
+Interface Plan:
+
+Admin Dashboard
+
+- Optimal method to generate links x100
+
+- Insights about number of users, engangement, sorted according to type of course/ tags, suggest which course should me more having engangement
+
+- 
+
+Teacher Dashboard 
+
+
+
+
+
+Student
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
