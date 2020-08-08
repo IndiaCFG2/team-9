@@ -29,5 +29,10 @@ export class DataService {
   incTCounter(obj){
     return this.hc.post('/tinccounter', obj);
   }
+
+  getGrade(){
+    return this.hc.get('/getRdData');
+  }
+
   
 }

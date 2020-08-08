@@ -134,8 +134,19 @@ adminApp.post('/tinccounter', (req, res) => {
     });
 });
 
+// adminApp.get('/getGradeData', (req, res) => {
+//     let jsonData = require('../../Model/grade_df.json');
+//     //console.log('This is after the read call');
+//     res.send({jsonData:jsonData});  
+// });
 
 
+adminApp.get('/getRdData', async (req, res) => {
+
+    let jsonData = require('../../Model/grade_df.json');
+    //console.log('This is after the read call');
+    res.send({jsonData:jsonData});  
+  });
 
 module.exports = adminApp
 
