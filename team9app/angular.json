@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "team9app"
+    }
+  },
+  "defaultProject": "team9app",
+  "cli": {
+    "analytics": false
+  }
 }
