@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-studentdashboard',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StudentdashboardComponent implements OnInit {
 
-  constructor() { }
+  constructor(private ds:DataService) { }
 
   ngOnInit(): void {
+  }
+
+  incCounter(obj){
+    this.ds.incStCounter(obj).subscribe((res) => {
+      if(res["message"]=="Error"){
+        console.log('Error while increasing counter');
+      } else {
+        console.log('Successfully increased count');
+      }
+    })
   }
 
 }

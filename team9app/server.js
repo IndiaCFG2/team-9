@@ -31,7 +31,9 @@ mongoDb.connect(dbUrl,{useUnifiedTopology:true,useNewUrlParser:true},(err,client
             console.log(`Server listening at port ${port}`);
         });
         admincollectionobj = dbo.collection("adminCollection");
-        coursecollectionobj = dbo.collection('coursecollectionobj');    
+        coursecollectionobj = dbo.collection('coursecollectionobj'); 
+        schoolcollectionobj = dbo.collection('schoolCollection');
+        countercollectionobj = dbo.collection('counterCollection');
     }
 });
 
@@ -39,7 +41,9 @@ mongoDb.connect(dbUrl,{useUnifiedTopology:true,useNewUrlParser:true},(err,client
 function getDb(){
     return{
         admincollectionobj: admincollectionobj,
-        coursecollectionobj: coursecollectionobj
+        coursecollectionobj: coursecollectionobj,
+        schoolcollectionobj : schoolcollectionobj,
+        countercollectionobj : countercollectionobj,
     }
 }
 

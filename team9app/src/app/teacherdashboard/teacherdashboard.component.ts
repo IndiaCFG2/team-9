@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-teacherdashboard',
@@ -6,10 +7,70 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./teacherdashboard.component.css']
 })
 export class TeacherdashboardComponent implements OnInit {
-
-  constructor() { }
+  schoolName: any;
+  grade: any;
+  subject: any;
+  courseObj: Array<Object>;
+  week1: any;
+  week2: any;
+  week3: any;
+  constructor(private ds:DataService) { }
 
   ngOnInit(): void {
+    
   }
+
+  getValues(){
+    let sendObj = {
+      schoolName:this.schoolName,
+      grade: this.grade,
+      subject: this.subject
+    }
+    this.ds.getCourses(sendObj).subscribe((res) => {
+      if(res["message"]=="Error while getting"){
+        alert('Error');
+      } else {
+        this.courseObj = res["arrObj"];
+        this.courseObj.forEach(el => {
+          if(el["week"]=='W1'){
+            this.week1.push(el);
+          } else if(el["week"]=='W2'){
+            this.week2.push(el);
+          } else {
+            this.week3.push(el);
+          }
+        })
+      }
+    });
+  }
+
+  enableCourse(courseName) {
+    let courseObj = {
+      courseName,
+      schoolName: this.schoolName
+    }
+    this.ds.enableCourse(courseObj).subscribe((res) => {
+      if(res["message"]=="Error while updating"){
+        alert("Error while updating");
+    } else {
+        alert("Successfully updated");
+    }
+    })
+  }
+
+  incCounter(obj){
+    this.ds.incTCounter(obj).subscribe((res) => {
+      if(res["message"]=="Error"){
+        console.log('Error while increasing counter');
+      } else {
+        console.log('Successfully increased count');
+      }
+    })
+  }
+
+
+
+
+  
 
 }
