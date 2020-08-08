@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #337ab7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7CB0F8;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:30%;
+  margin-left:380px;
+  margin-top:100px;
+}
+</style>
 <body>
 
 
-<br>
-<form action="/action_page.php">
+<div>
+  <form action="/action_page.php">
   <br>
   <br>
 
 
-  <label for="schools">Choose your school:</label>
+  <label for="schools"><b>Choose your school:</b></label>
   <select name="sc" id="school">
     <option value="s">School A</option>
     <option value="s2">School B</option>
     <option value="s3">School C</option>
   </select>
   <br>
-  <label for="schools">Choose your Grade:</label>
+  <label for="schools"><b>Choose your Grade:</b></label>
   <select name="sc" id="school">
     <option value="s">CBSE</option>
     <option value="s2">SSC</option>
@@ -24,7 +59,7 @@
      <option value="s3">MS</option>
   </select>
   <br>
-  <label for="schools">Choose your subject:</label>
+  <label for="schools"><b>Choose your subject:</b></label>
   <select name="sc" id="school">
     <option value="s">Maths</option>
     <option value="s2">English</option>
@@ -34,7 +69,7 @@
   
   <input type="submit" value="Submit">
 </form>
-
+</div>
 
 </body>
 </html>

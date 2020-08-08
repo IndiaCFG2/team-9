@@ -20,7 +20,7 @@ export class TeacherdashboardComponent implements OnInit {
     
   }
 
-openCity(evt, cityName) {
+	openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {

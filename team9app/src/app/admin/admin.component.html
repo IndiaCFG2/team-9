@@ -1,17 +1,46 @@
-<div class="container-fluid">
-    <section class="pin" id="pin">
-        <div class="row clearfix">
-          <div class="offset-sm-2 col-sm-8">
-            <form>
-              <div class="form-group">
+<!DOCTYPE html>
+<html>
+<style>
+
+
+.login {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:30%;
+  margin-left:380px;
+  margin-top:100px;
+}
+</style>
+<body>
+
+
+<div>
+        <form>
+             
                 <label>Enter a Login pin</label>
                 <input type="password" name="adminpin" class="form-control" [(ngModel)]="adminpin">
-              </div>
-              <div class="form-group text-center">
-                <button class="btn btnD1" (click)="submitPin()" type="button">Login</button>
-              </div>
+              
+                <br>
+                <button class="form-control" id="login" style="background-color: #337ab7;color: white" (click)="submitPin()" type="button">Login</button>
+              
             </form>
-          </div>
-        </div>
-    </section>
-    </div>
+</div>
+
+</body>
+</html>
