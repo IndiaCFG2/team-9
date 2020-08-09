@@ -18,7 +18,7 @@ function initDb() {
         }
         else {
             console.log("Connected to Database successfully");
-            dbo = client.db("auditorium");
+            dbo = client.db("321foundation");
             admincollectionobj = dbo.collection("adminCollection");
             coursecollectionobj = dbo.collection('courseCollection'); 
             schoolcollectionobj = dbo.collection('schoolCollection');
