@@ -90,7 +90,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/scr.js"
+            ]
           }
         },
         "lint": {
