@@ -17,7 +17,7 @@ export class TeacherdashboardComponent implements OnInit {
   constructor(private ds:DataService) { }
 
   ngOnInit(): void {
-    
+    this.getValues();
   }
 
 	openCity(evt, cityName) {
