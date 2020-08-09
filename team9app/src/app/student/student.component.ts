@@ -21,14 +21,14 @@ interface Schools {
 })
 export class StudentComponent implements OnInit {
 
-  schoolName: any;
+  
   grade: any;
   subject: any;
   courseObj: Array<Object>;
   week1: any;
   week2: any;
   week3: any;
-  inputSchool : Schools[] = [{
+  schoolName : Schools[] = [{
   value: 'A1',
   viewValue: 'School-1',
 },
@@ -72,6 +72,10 @@ inputGrade : Grades[] = [{
   ngOnInit(): void {
     
   }
+  submitForm(obj){
+
+  }
+  
 
   getValues(){
     let sendObj = {
