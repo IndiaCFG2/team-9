@@ -4,20 +4,20 @@
 
 
 <br>
-<form action="/action_page.php">
+<form #ref="ngForm" (onSubmit)="submitValues(ref.value)">
   <br>
   <br>
 
 
   <label for="schools">Choose your school:</label>
-  <select name="sc" id="school">
+  <select name="sc" id="school" ngModel>
     <option value="s">School A</option>
     <option value="s2">School B</option>
     <option value="s3">School C</option>
   </select>
   <br>
   <label for="schools">Choose your Grade:</label>
-  <select name="sc" id="school">
+  <select name="sc" id="school" ngModel>
     <option value="s">CBSE</option>
     <option value="s2">SSC</option>
     <option value="s3">KS</option>
@@ -25,14 +25,14 @@
   </select>
   <br>
   <label for="schools">Choose your subject:</label>
-  <select name="sc" id="school">
+  <select name="sc" id="school" ngModel>
     <option value="s">Maths</option>
     <option value="s2">English</option>
     <option value="s3">EVS</option>
   </select>
   <br>
   
-  <input type="submit" value="Submit">
+  <button type="" value="Submit"></button>
 </form>
 
 

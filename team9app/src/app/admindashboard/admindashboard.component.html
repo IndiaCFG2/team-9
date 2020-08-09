@@ -12,57 +12,45 @@
 	<body>
 		
 		
-	<form class="form-horizontal" action="/action_page.php">
+	<form class="form-horizontal" #ref="ngForm" (ngSubmit)="submitForm(ref.value); ref.reset();">
     <div class="form-group">
       <label class="control-label col-sm-2" for="inputBoard">Board</label>
 	  <div class="col-sm-5">
-      <select id="inputBoard" class="form-control">
-        <option selected>Choose...</option>
-        <option>CBSE</option>
-        <option>Karnataka</option>
-        <option>Maharashtra</option>
-        <option>Telangana</option>
+      <select id="inputBoard" class="form-control" name="board" ngModel>
+        <option *ngFor="let board of inputBoard" [value]="board.value">{{board.viewValue}}</option>
       </select>
 	  </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-2" for="inputGrade">Grade</label>
 	  <div class="col-sm-5">
-      <select id="inputGrade" class="form-control">
-        <option selected>Choose...</option>
-        <option>Grade 1</option>
-        <option>Grade 2</option>
-        <option>Grade 3</option>
-        <option>Grade 4</option>
-        <option>Grade 5</option>
-      </select>
+        <select id="inputGrade" class="form-control" name="grade" ngModel>
+            <option *ngFor="let grade of inputGrade" [value]="grade.value">{{grade.viewValue}}</option>
+        </select>
 	  </div>
     </div>
   <div class="form-group">
     <label class="control-label col-sm-2" for="inputSubject">Subject</label>
 	<div class="col-sm-5">
-    <select id="inputSubject" class="form-control">
-        <option selected>Choose...</option>
-        <option>English</option>
-        <option>Maths</option>
-        <option>EVS</option>
-      </select>
+        <select id="inputSubject" class="form-control" name="subject" ngModel>
+            <option *ngFor="let subject of inputSubject" [value]="subject.value">{{subject.viewValue}}</option>
+        </select>
 	  </div>
   </div>
   <div class="form-group">
     <label class="control-label col-sm-2" for="inputChapter">Course Name</label>
 	<div class="col-sm-5">
-    <input type="text" class="form-control" id="inputChapter" placeholder="Enter a Chapter name">
+    <input type="text" class="form-control" id="inputChapter" placeholder="Enter a Chapter name" name="courseName" ngModel>
 	</div>
   </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="inputlowurl">lowTech</label>
+      <label class="control-label col-sm-2" for="inputlowurl" name="lowTech" ngModel>lowTech</label>
 	  <div class="col-sm-5">
       <input type="text" class="form-control" id="inputlowurl">
 	  </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="inputhighurl">highTech</label>
+      <label class="control-label col-sm-2" for="inputhighurl" name="highTech">highTech</label>
 	  <div class="col-sm-5">
       <input type="text" class="form-control" id="inputhighurl">
 	  </div>

@@ -5,6 +5,21 @@ import { HttpClient } from '@angular/common/http';
 import axios from 'axios';
 // import * as grade from './grade_df.json';
 
+interface Boards {
+  value: string;
+  viewValue: string;
+}
+
+interface Grades {
+  value: string;
+  viewValue: string;
+}
+
+interface Subjects {
+  value: string;
+  viewValue: string;
+}
+
 
 @Component({
   selector: 'app-admindashboard',
@@ -14,6 +29,61 @@ import axios from 'axios';
 export class AdmindashboardComponent implements OnInit {
   grade: Object;
   hl: any;
+
+  inputBoard : Boards[] = [{
+    value: 'CBSE',
+    viewValue: 'CBSE',
+  },
+  {
+    value:'KSB',
+    viewValue:'Karnataka',
+  },
+  {
+    value: 'MSB',
+    viewValue: 'Maharashtra',
+  },
+  {
+    value: 'TSB',
+    viewValue: 'Telangana',
+  }
+]
+
+inputGrade : Grades[] = [{
+  value: 'G1',
+  viewValue: 'Grade-1',
+},
+{
+  value:'G2',
+  viewValue:'Grade-2',
+},
+{
+  value: 'G3',
+  viewValue: 'Grade-3',
+},
+{
+  value: 'G4',
+  viewValue: 'Grade-4',
+},
+{
+  value: 'G5',
+  viewValue: 'Grade-5'
+}
+]
+
+
+inputSubject : Subjects[] = [{
+  value: 'ENG',
+  viewValue: 'English',
+},
+{
+  value:'MATH',
+  viewValue:'Maths',
+},
+{
+  value: 'EVS',
+  viewValue: 'EVS',
+},
+]
 
   constructor(private ds:DataService, private http: HttpClient) { }
 
