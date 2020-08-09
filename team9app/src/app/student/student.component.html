@@ -39,26 +39,20 @@ div {
 
 
 <div>
-  <form action="/action_page.php">
+ <form class="form-horizontal" #ref="ngForm" (ngSubmit)="submitForm(ref.value); ref.reset();">
   <br>
   <br>
 
 
   <label for="schools">Choose your school:</label>
-  <select name="sc" id="school">
-    <option value="s">School A</option>
-    <option value="s2">School B</option>
-    <option value="s3">School C</option>
-  </select>
+  <select id="schoolName" class="form-control" name="school" ngModel>
+            <option *ngFor="let school of schoolName" [value]="school.value">{{school.viewValue}}</option>
+        </select>
   <br>
   <label for="grades">Choose your grade:</label>
-  <select name="gd" id="grade">
-    <option value="g1">Grade 1</option>
-    <option value="g2">Grade 2</option>
-    <option value="g3">Grade 3</option>
-    <option value="g4">Grade 4</option>
-    <option value="g5">Grade 5</option>
-  </select>
+  <select id="inputGrade" class="form-control" name="grade" ngModel>
+            <option *ngFor="let grade of inputGrade" [value]="grade.value">{{grade.viewValue}}</option>
+        </select>
   <br>
   <input type="submit" value="Submit">
 </form>

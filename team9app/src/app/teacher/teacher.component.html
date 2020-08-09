@@ -9,31 +9,24 @@
 
 
   <label for="schools">Choose your school:</label>
-  <select name="sc" id="school" ngModel>
-    <option value="s">School A</option>
-    <option value="s2">School B</option>
-    <option value="s3">School C</option>
-  </select>
+  <select id="schoolName" class="form-control" name="school" ngModel>
+            <option *ngFor="let school of schoolName" [value]="school.value">{{school.viewValue}}</option>
+        </select>
   <br>
   <label for="schools">Choose your Grade:</label>
-  <select name="sc" id="school" ngModel>
-    <option value="s">CBSE</option>
-    <option value="s2">SSC</option>
-    <option value="s3">KS</option>
-     <option value="s3">MS</option>
-  </select>
+  <select id="inputGrade" class="form-control" name="grade" ngModel>
+            <option *ngFor="let grade of inputGrade" [value]="grade.value">{{grade.viewValue}}</option>
+        </select>
   <br>
   <label for="schools">Choose your subject:</label>
-  <select name="sc" id="school" ngModel>
-    <option value="s">Maths</option>
-    <option value="s2">English</option>
-    <option value="s3">EVS</option>
-  </select>
+  <select id="inputSubject" class="form-control" name="subject" ngModel>
+            <option *ngFor="let subject of inputSubject" [value]="subject.value">{{subject.viewValue}}</option>
+        </select>
   <br>
   
   <button type="" value="Submit"></button>
 </form>
-</div>
+
 
 </body>
 </html>
