@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-interface Boards {
+interface Schools {
   value: string;
   viewValue: string;
 }
@@ -25,7 +25,7 @@ export class TeacherComponent implements OnInit {
    grade: Object;
   hl: any;
 
-  inputGrade : Schools[] = [{
+  inputSchools : Schools[] = [{
   value: 'A1',
   viewValue: 'School-1',
 },

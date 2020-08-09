@@ -28,7 +28,7 @@ export class StudentComponent implements OnInit {
   week1: any;
   week2: any;
   week3: any;
-  inputGrade : Schools[] = [{
+  inputSchool : Schools[] = [{
   value: 'A1',
   viewValue: 'School-1',
 },
