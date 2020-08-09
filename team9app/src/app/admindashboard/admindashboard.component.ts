@@ -105,10 +105,11 @@ inputSubject : Subjects[] = [{
     console.log(this.grade);
     this.hl = data2.data;
     this.renderGrade();
-    this.renderHL();
+    // this.renderHL();
   }
 
   submitCourse(obj){
+    console.log(obj);
     obj["enable"] = 0
     obj["schools"] = []
     this.ds.submitCourse(obj).subscribe((res) => {

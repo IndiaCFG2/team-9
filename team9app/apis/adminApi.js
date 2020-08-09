@@ -1,15 +1,17 @@
 const exp = require('express');
 
 const adminApp = exp.Router();
+adminApp.use(exp.json());
 
-const dbo = require('../server');
+const dbo = require('../db');
 var cors = require('cors');
 
+dbo.initDb();
 adminApp.use(cors());
 
 
 adminApp.post('/addcourse', (req, res) => {
-    courseCollectionObj = dbo.getDb().coursecollectionobj;
+    let courseCollectionObj = dbo.getDb().coursecollectionobj;
     courseCollectionObj.insertOne(req.body, (err, success) => {
         if(err){
             res.send({message:"Error while inserting"});
@@ -20,7 +22,7 @@ adminApp.post('/addcourse', (req, res) => {
 });
 
 adminApp.get('/getcourses', (req, res) => {
-    courseCollectionObj = dbo.getDb().coursecollectionobj;
+    let courseCollectionObj = dbo.getDb().coursecollectionobj;
     schoolCollectionObj = dbo.getDb().schoolcollectionobj;
     schoolCollectionObj.find({schoolName: req.body.school}, (err, arrObj) => {
         if(err){
@@ -43,7 +45,7 @@ adminApp.get('/getcourses', (req, res) => {
 });
 
 adminApp.post('/enablecourses', (req, res) => {
-    courseCollectionobj = dbo.getDb().coursecollectionobj;
+    let courseCollectionobj = dbo.getDb().coursecollectionobj;
     courseCollectionobj.update({courseName: req.body.courseName}, {$set: { enabled: 1, $push : { schools: req.body.schoolName } } }, (err, success) => {
         if(err){
             res.send({message:"Error while updating"});
@@ -55,8 +57,8 @@ adminApp.post('/enablecourses', (req, res) => {
 
 
 adminApp.post('/getstudentcourses', (req, res) => {
-    courseCollectionObj = dbo.getDb().coursecollectionobj;
-    schoolCollectionObj = dbo.getDb().schoolcollectionobj;
+    let courseCollectionObj = dbo.getDb().coursecollectionobj;
+    let schoolCollectionObj = dbo.getDb().schoolcollectionobj;
     schoolCollectionObj.find({schoolName: req.body.school}, (err, arrObj) => {
         if(err){
             console.log(err);
@@ -82,7 +84,7 @@ adminApp.post('/getstudentcourses', (req, res) => {
 
 
 adminApp.post('/stinccounter', (req, res) => {
-    counterCollectionObj = dbo.getDb().countercollectionobj;
+    let counterCollectionObj = dbo.getDb().countercollectionobj;
     counterCollectionObj.find({courseName: req.body.courseName}).toArray((err, arrObj) => {
         if(err){
             console.log(err);
@@ -110,7 +112,7 @@ adminApp.post('/stinccounter', (req, res) => {
 });
 
 adminApp.post('/tinccounter', (req, res) => {
-    counterCollectionObj = dbo.getDb().countercollectionobj;
+    let counterCollectionObj = dbo.getDb().countercollectionobj;
     counterCollectionObj.find({courseName: req.body.courseName}).toArray((err, arrObj) => {
         if(err){
             console.log(err);
