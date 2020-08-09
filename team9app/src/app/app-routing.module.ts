@@ -7,9 +7,11 @@ import { AdminComponent } from './admin/admin.component';
 import { StudentdashboardComponent } from './studentdashboard/studentdashboard.component';
 import { TeacherdashboardComponent } from './teacherdashboard/teacherdashboard.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
-
+import {HomeComponent} from './home/home.component';
 
 const routes: Routes = [
+  {path:'/', component:HomeComponent},
+  {path:'home', component:HomeComponent},
   {path:'student', component:StudentComponent},
   {path:'teacher', component:TeacherComponent},
   {path:'about', component:AboutComponent},

@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { StudentdashboardComponent } from './studentdashboard/studentdashboard.component';
 import { TeacherdashboardComponent } from './teacherdashboard/teacherdashboard.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AdmindashboardComponent } from './admindashboard/admindashboard.compone
     AboutComponent,
     StudentdashboardComponent,
     TeacherdashboardComponent,
-    AdmindashboardComponent
+    AdmindashboardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
