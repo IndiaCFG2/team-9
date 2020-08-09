@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data.service';
+import { Router } from '@angular/router';
 
 
 
@@ -67,13 +68,14 @@ inputGrade : Grades[] = [{
 
 
 
-  constructor(private ds:DataService) { }
+  constructor(private ds:DataService, private router: Router) { }
 
   ngOnInit(): void {
     
   }
   submitForm(obj){
-
+    console.log(obj);
+    this.router.navigate(['student/dashboard']);
   }
   
 

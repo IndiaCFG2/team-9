@@ -15,7 +15,7 @@ export class DataService {
     return this.hc.get('admin/getBoard', obj);
   }
   getCourses(obj){
-    return this.hc.get('admin/getcourse', obj);
+    return this.hc.get('admin/getcourses', obj);
   }
   enableCourse(obj){
     return this.hc.post('admin/enablecourse', obj);
