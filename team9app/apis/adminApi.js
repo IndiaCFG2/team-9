@@ -3,6 +3,9 @@ const exp = require('express');
 const adminApp = exp.Router();
 
 const dbo = require('../server');
+var cors = require('cors');
+
+adminApp.use(cors());
 
 
 adminApp.post('/addcourse', (req, res) => {
@@ -141,12 +144,18 @@ adminApp.post('/tinccounter', (req, res) => {
 // });
 
 
-adminApp.get('/getRdData', async (req, res) => {
+adminApp.get('/getRdData',cors(), async (req, res) => {
 
     let jsonData = require('../../Model/grade_df.json');
     //console.log('This is after the read call');
     res.send({jsonData:jsonData});  
   });
+
+
+adminApp.get('/getHlData', cors(), async (req, res) => {
+    let jsonData = require('../../Model/high_low_df.json');
+    res.send({jsonData:jsonData});
+})
 
 module.exports = adminApp
 
