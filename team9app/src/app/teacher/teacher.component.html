@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
+	<title>321</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+	</head>
 <body>
 
 <br>
 <div>
-<form #ref="ngForm" (onSubmit)="submitValues(ref.value)">
+<form class="form-horizontal" #ref="ngForm" (ngSubmit)="submitValues(ref.value)">
+
   <br>
   <br>
-
-
   <label for="schools">Choose your school:</label>
   <select id="schoolName" class="form-control" name="school" ngModel>
             <option *ngFor="let school of schoolName" [value]="school.value">{{school.viewValue}}</option>
@@ -21,11 +27,12 @@
   <br>
   <label for="schools">Choose your subject:</label>
   <select id="inputSubject" class="form-control" name="subject" ngModel>
-            <option *ngFor="let subject of inputSubject" [value]="subject.value">{{subject.viewValue}}</option>
-        </select>
+    <option *ngFor="let subject of inputSubject" [value]="subject.value">{{subject.viewValue}}</option>
+  </select>
   <br>
-  
-  <input type="submit" value="Submit">
+
+  <input type="submit" class="btn btn-primary" value="Submit">
+
 </form>
 
 </div>

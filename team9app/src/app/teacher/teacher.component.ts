@@ -26,16 +26,16 @@ export class TeacherComponent implements OnInit {
   hl: any;
 
   schoolName : Schools[] = [{
-  value: 'A1',
-  viewValue: 'School-1',
+  value: 'schoolA',
+  viewValue: 'SchoolA',
 },
 {
-  value:'A2',
-  viewValue:'School-2',
+  value:'schoolB',
+  viewValue:'schoolB',
 },
 {
-  value: 'A3',
-  viewValue: 'School-3',
+  value: 'schoolC',
+  viewValue: 'schoolC',
 }
 ]
 
@@ -82,6 +82,7 @@ inputSubject : Subjects[] = [{
   ngOnInit(): void {
   }
   submitValues(obj){
+    alert('Triggered');
     console.log(obj);
     this.router.navigate(['teacher/dashboard']);
   }

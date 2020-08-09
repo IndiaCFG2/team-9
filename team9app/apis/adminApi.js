@@ -159,6 +159,12 @@ adminApp.get('/getHlData', cors(), async (req, res) => {
     res.send({jsonData:jsonData});
 })
 
+
+adminApp.get('/getBWData', cors(), async (req, res) => {
+    let jsonData = require('../../Model/board_df.json');
+    res.send({jsonData:jsonData});
+})
+
 module.exports = adminApp
 
 

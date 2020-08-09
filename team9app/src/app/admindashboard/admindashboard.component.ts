@@ -84,6 +84,7 @@ inputSubject : Subjects[] = [{
   viewValue: 'EVS',
 },
 ]
+  bw: any;
 
   constructor(private ds:DataService, private http: HttpClient) { }
 
@@ -99,13 +100,17 @@ inputSubject : Subjects[] = [{
     //   console.log(this.gradeData);
     // });
     let data = await axios.get('http://localhost:2500/admin/getRdData');
-    let data2 = await axios.get('http://localhost:2500/admin/getHlData')
+    let data2 = await axios.get('http://localhost:2500/admin/getHlData');
+    let data3 = await axios.get('http://localhost:2500/admin/getBWData');
     console.log(data);
     this.grade = data.data;
     console.log(this.grade);
     this.hl = data2.data;
+    console.log(this.hl);
+    this.bw = data3.data;
     this.renderGrade();
-    // this.renderHL();
+    this.renderHL();
+    this.renderBW();
   }
 
   submitCourse(obj){
@@ -123,26 +128,64 @@ inputSubject : Subjects[] = [{
   }
 
   renderHL(){
-    let chart = new CanvasJS.Chart("hl", {
-      theme: "light2",
+    var chart = new CanvasJS.Chart("hl", {
       animationEnabled: true,
-      exportEnabled: true,
+      theme: "light2", // "light1", "light2", "dark1", "dark2"
       title: {
-        text: "High vs Low tech"
+        text: "TECH"
+      },
+      axisY: {
+        title: "# of Clicks",
+        includeZero: false
+      },
+      axisX: {
+        title: "Tech"
       },
       data: [{
-        type: "pie",
-        showInLegend: true,
-        toolTipContent: "<b>{name}</b>: (#percent%)",
-        indexLabel: "{name} - #percent%",
+        type: "column",
+        yValueFormatString: "#,##0",
         dataPoints: [
-          {y:this.hl["jsonData"][0]["Total"], name:this.hl["jsonData"][0]["Type"]},
-          {y:this.hl["jsonData"][1]["Total"], name:this.hl["jsonData"][1]["Total"]
-        }]
+          { label: this.hl["jsonData"][0]["Type"], y: this.hl["jsonData"][0]['Total'] },
+          { label: this.hl["jsonData"][1]["Type"], y: this.hl["jsonData"][1]['Total'] },
+        ]
       }]
     });
     chart.render();
   }
+  renderBW(){
+    var chart = new CanvasJS.Chart("bw", {
+      animationEnabled: true,
+      theme: "light2", // "light1", "light2", "dark1", "dark2"
+      title: {
+        text: "Boards"
+      },
+      axisY: {
+        title: "# of Clicks",
+        includeZero: false
+      },
+      axisX: {
+        title: "Boards"
+      },
+      data: [{
+        type: "column",
+        yValueFormatString: "#,##0",
+        dataPoints: [
+          { label: this.bw["jsonData"][0]["Board"], y: this.bw["jsonData"][0]['Total'] },
+          { label: this.bw["jsonData"][1]["Board"], y: this.bw["jsonData"][1]['Total'] },
+          { label: this.bw["jsonData"][2]["Board"], y: this.bw["jsonData"][2]['Total'] },
+          { label: this.bw["jsonData"][3]["Board"], y: this.bw["jsonData"][3]['Total'] },
+        ]
+      }]
+    });
+    chart.render();
+  }
+        // [
+        //   { name:this.hl["jsonData"][0]["Type"], y:this.hl["jsonData"][0]["Total"]},
+        //   { name:this.hl["jsonData"][1]["Type"], y:this.hl["jsonData"][1]["Total"],}
+        // ]
+    //   }]
+    // });
+    // chart.render();
 
   renderGrade(){
 
